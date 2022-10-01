@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: normal 16px sans-serif;
+}
+
+body {
+  background: var(--color-body-background);
+  color: var(--color-body);
+  font-family: var(--font-family-text);
+  font-size: var(--font-size-text);
+  font-weight: var(--font-weight-text);
+  line-height: var(--line-height-text);
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+code,
+pre {
+  font-family: var(--font-family-monospace);
+  font-size: var(--font-size-monospace);
+  font-weight: var(--font-weight-monospace);
+  line-height: calc(var(--font-size-text) * var(--line-height-text));
+}
+
+p {
+  margin: 0 0 .75rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-title);
+  line-height: var(--line-height-title);
+  margin: 0 0 .75rem;
+}
+
+h1 { font-size: var(--font-size-title-1); }
+h2 { font-size: var(--font-size-title-2); }
+h3 { font-size: var(--font-size-title-3); }
+h4 { font-size: var(--font-size-title-4); }
+h5 { font-size: var(--font-size-title-5); }
+h6 { font-size: var(--font-size-title-6); }
