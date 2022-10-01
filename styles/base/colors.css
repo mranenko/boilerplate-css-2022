@@ -8,12 +8,13 @@
 
   --color-neutral: #f3eff0;
   --color-neutral-2: #eae3e5;
+  --color-neutral-3: #dfd5d7;
 
   /*
     colors by function
   */
 
-  --color-border: var(--color-neutral-2);
+  --color-border: var(--color-neutral-3);
 
   /*
     colors by element

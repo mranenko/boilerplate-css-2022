@@ -18,6 +18,14 @@
   padding: .25rem 2rem;
 }
 
+.layout.system nav a:hover {
+  background: var(--color-neutral-3);
+}
+
+.layout.system nav a.active {
+  font-weight: bold;
+}
+
 .layout.system main {
   background: var(--color-neutral);
   padding: 2rem;
@@ -61,7 +69,7 @@
 
 .layout.system .swatch {
   border: 1px solid var(--color-border);
-  border-radius: .5rem;
+  border-radius: .25rem;
   height: 4rem;
   width: 4rem;
 }
@@ -69,3 +77,4 @@
 .layout.system .swatch.white { background: var(--color-white); }
 .layout.system .swatch.neutral { background: var(--color-neutral); }
 .layout.system .swatch.neutral-2 { background: var(--color-neutral-2); }
+.layout.system .swatch.neutral-3 { background: var(--color-neutral-3); }
