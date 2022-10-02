@@ -4,6 +4,7 @@
 @import 'basics/utilities.css';
 
 @import 'blocks/cards.css';
+@import 'blocks/forms.css';
 @import 'blocks/grids.css';
 
 @import 'layouts/system.css';

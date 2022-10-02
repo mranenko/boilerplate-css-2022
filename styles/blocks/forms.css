@@ -1,0 +1,23 @@
+.button,
+.input.text {
+  border: 0;
+  border-radius: .25rem;
+  font: inherit;
+}
+
+.button {
+  background: var(--color-rose);
+  color: var(--color-white);
+  cursor: pointer;
+  padding: .75rem 2rem;
+}
+
+.button:hover {
+  background: var(--color-rose-2);
+}
+
+.input.text {
+  background: var(--color-neutral-3);
+  color: inherit;
+  padding: .75rem;
+}

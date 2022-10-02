@@ -78,3 +78,5 @@
 .layout.system .swatch.neutral { background: var(--color-neutral); }
 .layout.system .swatch.neutral-2 { background: var(--color-neutral-2); }
 .layout.system .swatch.neutral-3 { background: var(--color-neutral-3); }
+.layout.system .swatch.rose { background: var(--color-rose); }
+.layout.system .swatch.rose-2 { background: var(--color-rose-2); }
