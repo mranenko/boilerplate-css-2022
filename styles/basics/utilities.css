@@ -13,7 +13,12 @@
   margins + spacing
 */
 
-.mt-25 { margin-top: .25rem; }
-.mt-5 { margin-top: .5rem; }
-.mt-75 { margin-top: .75rem; }
+.mb-05 { margin-bottom: .5rem; }
+.mb-1 { margin-bottom: 1rem; }
+.mb-15 { margin-bottom: 1.5rem; }
+.mb-2 { margin-bottom: 2rem; }
+
+.mt-05 { margin-top: .5rem; }
 .mt-1 { margin-top: 1rem; }
+.mt-15 { margin-top: 1.5rem; }
+.mt-2 { margin-top: 2rem; }
