@@ -29,6 +29,7 @@ pre {
   font-size: var(--font-size-monospace);
   font-weight: var(--font-weight-monospace);
   line-height: calc(var(--font-size-text) * var(--line-height-text));
+  white-space: pre-line;
 }
 
 p {
