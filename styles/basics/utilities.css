@@ -1,6 +1,19 @@
+/*
+  display
+*/
+
 .block {
   display: block;
   margin: 0 0 .75rem;
 }
 .inline { display: inline; }
 .inline-block { display: inline-block; }
+
+/*
+  margins + spacing
+*/
+
+.mt-25 { margin-top: .25rem; }
+.mt-5 { margin-top: .5rem; }
+.mt-75 { margin-top: .75rem; }
+.mt-1 { margin-top: 1rem; }
