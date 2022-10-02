@@ -1,6 +1,6 @@
-@import 'base/colors.css';
-@import 'base/fonts.css';
-@import 'base/global.css';
-@import 'base/utilities.css';
+@import 'basics/colors.css';
+@import 'basics/fonts.css';
+@import 'basics/global.css';
+@import 'basics/utilities.css';
 
 @import 'layouts/system.css';
