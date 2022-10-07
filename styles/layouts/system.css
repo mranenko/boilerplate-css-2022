@@ -49,7 +49,7 @@
 
 .layout.system .color {
   align-items: center;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
 }
 
 .layout.system .color.apricot { background: var(--color-apricot); }
