@@ -3,15 +3,21 @@
     colors by name
   */
 
-  --color-black: #4c3c42;
-  --color-white: #fcfbfb;
-
-  --color-neutral: #f3eff1;
-  --color-neutral-2: #e7e1e4;
-  --color-neutral-3: #dad0d4;
-
+  --color-black: #535554;
   --color-rose: #a57085;
-  --color-rose-2: #945d73;
+  /* --color-smoke: #f3eff1; */
+  --color-mist: #d0d4d3;
+  --color-white: #f7f8f8;
+
+  /* --color-neutral-1: var(--color-smoke); */
+  --color-neutral-1: #f0f1f1;
+  /* --color-neutral-2: #e7e1e4; */
+  --color-neutral-2: #e7e9e8;
+  /* --color-neutral-3: #dad0d4; */
+  --color-neutral-3: var(--color-mist);
+
+  --color-primary-1: var(--color-rose);
+  --color-primary-2: #916375;
 
   /*
     colors by function
@@ -23,6 +29,6 @@
     colors by element
   */
 
-  --color-body-background: var(--color-neutral);
+  --color-body-background: var(--color-neutral-1);
   --color-body: var(--color-black);
 }
