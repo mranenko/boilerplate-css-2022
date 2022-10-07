@@ -3,17 +3,19 @@
     colors by name
   */
 
+  --color-apricot: #ffc07f;
+  --color-keppel: #3ba99c;
   --color-rose: #905d72;
   --color-shadow: #5a5e5d;
 
   --color-black: var(--color-shadow);
   --color-white: #f7f8f8;
 
-  --color-neutral-1: #f0f1f0;
+  --color-neutral: #f0f1f0;
   --color-neutral-2: #e6e7e7;
   --color-neutral-3: #d9dada;
 
-  --color-primary-1: var(--color-rose);
+  --color-primary: var(--color-rose);
   --color-primary-2: #7f5264;
 
   /*
@@ -26,6 +28,6 @@
     colors by element
   */
 
-  --color-body-background: var(--color-neutral-1);
+  --color-body-background: var(--color-neutral);
   --color-body: var(--color-black);
 }

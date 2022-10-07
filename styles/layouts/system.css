@@ -9,7 +9,7 @@
 }
 
 .layout.system main {
-  background: var(--color-neutral-1);
+  background: var(--color-neutral);
   padding: 2rem;
 }
 
@@ -20,8 +20,8 @@
 
 .layout.system nav a {
   display: block;
-  margin: 0 -2rem .5rem;
-  padding: .25rem 2rem;
+  margin: 0 -2rem 0.5rem;
+  padding: 0.25rem 2rem;
 }
 .layout.system nav a:hover { background: var(--color-neutral-3); }
 .layout.system nav a.active { font-weight: bold; }
@@ -49,25 +49,33 @@
 
 .layout.system .color {
   align-items: center;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: auto 1fr;
-  margin: 0 0 .75rem;
+  padding: 2rem;
 }
 
-.layout.system .swatch {
-  border-radius: .25rem;
-  height: 4rem;
-  width: 4rem;
+.layout.system .color.apricot { background: var(--color-apricot); }
+.layout.system .color.black { background: var(--color-black); }
+.layout.system .color.keppel { background: var(--color-keppel); }
+.layout.system .color.neutral { background: var(--color-neutral); }
+.layout.system .color.neutral-2 { background: var(--color-neutral-2); }
+.layout.system .color.neutral-3 { background: var(--color-neutral-3); }
+.layout.system .color.primary { background: var(--color-primary); }
+.layout.system .color.primary-2 { background: var(--color-primary-2); }
+.layout.system .color.rose { background: var(--color-rose); }
+.layout.system .color.shadow { background: var(--color-shadow); }
+.layout.system .color.white { background: var(--color-white); }
+
+.layout.system .color.black,
+.layout.system .color.keppel,
+.layout.system .color.primary,
+.layout.system .color.primary-2,
+.layout.system .color.rose,
+.layout.system .color.shadow {
+  color: var(--color-white);
 }
-.layout.system .swatch.black { background: var(--color-black); }
-.layout.system .swatch.mist { background: var(--color-mist); border: 1px solid var(--color-border); }
-.layout.system .swatch.rose { background: var(--color-rose); }
-.layout.system .swatch.white { background: var(--color-white); border: 1px solid var(--color-border); }
 
-.layout.system .swatch.neutral-1 { background: var(--color-neutral-1); border: 1px solid var(--color-border); }
-.layout.system .swatch.neutral-2 { background: var(--color-neutral-2); border: 1px solid var(--color-border); }
-.layout.system .swatch.neutral-3 { background: var(--color-neutral-3); }
-
-.layout.system .swatch.primary-1 { background: var(--color-primary-1); }
-.layout.system .swatch.primary-2 { background: var(--color-primary-2); }
+.layout.system .color.neutral,
+.layout.system .color.neutral-2,
+.layout.system .color.white {
+  border: 1px solid var(--color-border);
+  margin: -1px 0 0 -1px;
+}
