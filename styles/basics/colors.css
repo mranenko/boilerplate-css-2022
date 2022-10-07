@@ -3,24 +3,21 @@
     colors by name
   */
 
-  --color-black: #535554;
-  --color-rose: #a57085;
-  /* --color-smoke: #f3eff1; */
-  --color-mist: #d0d4d3;
+  --color-rose: #905d72;
+  --color-shadow: #5a5e5d;
+
+  --color-black: var(--color-shadow);
   --color-white: #f7f8f8;
 
-  /* --color-neutral-1: var(--color-smoke); */
-  --color-neutral-1: #f0f1f1;
-  /* --color-neutral-2: #e7e1e4; */
-  --color-neutral-2: #e7e9e8;
-  /* --color-neutral-3: #dad0d4; */
-  --color-neutral-3: var(--color-mist);
+  --color-neutral-1: #f0f1f0;
+  --color-neutral-2: #e6e7e7;
+  --color-neutral-3: #d9dada;
 
   --color-primary-1: var(--color-rose);
-  --color-primary-2: #916375;
+  --color-primary-2: #7f5264;
 
   /*
-    colors by function
+    colors by element property
   */
 
   --color-border: var(--color-neutral-3);

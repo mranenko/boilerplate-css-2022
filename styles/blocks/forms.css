@@ -6,7 +6,7 @@
 }
 
 .button {
-  background: var(--color-primary-2);
+  background: var(--color-primary-1);
   color: var(--color-white);
   cursor: pointer;
   padding: .75rem 2rem;
