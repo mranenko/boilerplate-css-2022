@@ -3,7 +3,7 @@
     "live-server": "^1.2.2"
   },
   "scripts": {
-    "server": "live-server --port=20221",
+    "server": "live-server --open=system/index.html --port=20221",
     "start": "npm run server"
   }
 }

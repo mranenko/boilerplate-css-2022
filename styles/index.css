@@ -6,5 +6,6 @@
 @import 'blocks/cards.css';
 @import 'blocks/forms.css';
 @import 'blocks/grids.css';
+@import 'blocks/tooltips.css';
 
 @import 'layouts/system.css';
